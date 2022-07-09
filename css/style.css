@@ -704,3 +704,56 @@ p {
 
 .skills-item:nth-child(1){
 }
+
+/* Hero Паша */
+
+.container {
+  max-width: 1338px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.hero{
+  display: flex;
+}
+
+.hero-text{
+  margin-right:144px;
+  max-width:540px;
+}
+
+.hero-title{
+  display: flex;
+align-items: flex-end;
+margin-bottom: 40px;
+}
+
+.hero-icon{
+  fill: var(--black-color);
+  transform: rotate(39deg);
+  margin-left: 34px;
+  margin-bottom: 40px;
+}
+
+.hero-title-article{
+  max-width: 386px;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 1.25;
+  color:var(--black-color) ;
+}
+
+.hero-text>p{
+  margin-bottom: 60px;
+  font-size: 24px;
+}
+
+.hero-button{
+  padding: 23px 64px;
+  border-radius: 10px;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+  background-color: var(--accent-first-color);
+  cursor: pointer;
+}
