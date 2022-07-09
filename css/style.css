@@ -130,6 +130,44 @@ color: var(--black-color);
 /* Pricin - Ілона */
 
 /* Contact us - Женя */
+.contacts {
+  display: flex;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 2.67;
+  color: var(--black-color);
+}
+
+.form-send {
+  display: flex;
+}
+
+.form {
+  box-sizing: border-box;
+  width: 283px;
+  height: 50px;
+  left: 295px;
+  top: 2570px;
+  border: 1px solid var(--decr-color);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.button {
+  width: 145px;
+  height: 50px;
+  left: 584px;
+  top: 2569px;
+  background-color: var(--accent-first-color);
+  border-radius: 5px; 
+  color: var(--white-color);
+}
+
+.button:hover,
+.button:focus {}
 
 /* Ваня */
 
