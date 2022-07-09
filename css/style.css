@@ -56,7 +56,7 @@ img {
 body {
   background-color: var(--white-color);
   color: var(--decr-color);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 1.5;
 }
 
@@ -70,6 +70,57 @@ body {
   padding: 0 20px;
 }
 
+/* Footer */
+/* Вадим */
+.footer-section {
+  padding-bottom: 55px;
+}
+
+.footer-container {
+  display: flex;
+ 
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 22px;
+  padding-bottom: 22px;
+
+  border-top: 1px solid var(--border-color);
+}
+
+.footer-link-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-link-item:not(:last-child){
+  margin-right: 80px;
+}
+
+.footer-logo {
+  font-family: "Poppins";
+  font-size: 36px;
+  line-height: 1.5;
+  align-items: center;
+  color: var(--black-color);
+}
+
+.footer-logo > .logo-accent {
+  color: var(--accent-second-color);
+}
+
+.footer-link {
+  font-family: "Poppins";
+
+  font-size: 24px;
+  line-height: 1.5;
+  align-items: center;
+  letter-spacing: 0.02em;
+
+  color: var(--decr-color);
+}
+
+/* /Вадим */
+/* /Footer */
 /* skills Karina */
 
 .section-skill {
