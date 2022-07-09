@@ -50,7 +50,7 @@ img {
 body {
   background-color: var(--white-color);
   color: var(--decr-color);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 1.5;
 }
 .section {
@@ -61,3 +61,61 @@ body {
   margin: 0 auto;
   padding: 0 20px;
 }
+
+/* Footer */
+/* Вадим */
+.footer-section {
+  padding-top: 0px;
+  padding-bottom: 77px;
+}
+
+.footer-container {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  border-top: 1px solid var(--border-color);
+  padding-top: 22px;
+}
+
+.footer-link-list {
+  display: flex;
+  justify-content: space-between;
+  /* flex-basis: 768px; */
+}
+
+.footer-link-item {
+  margin-right: 80px;
+}
+
+.footer-link-item:last-child {
+  margin-right: 0;
+}
+
+.footer-logo {
+  font-family: "Poppins";
+  font-size: 36px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  color: var(--black-color);
+}
+
+.footer-logo > .logo-accent {
+  display: block;
+  color: var(--accent-second-color);
+}
+
+.footer-link {
+  font-family: "Poppins";
+
+  font-size: 24px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+
+  color: var(--decr-color);
+}
+
+/* /Вадим */
+/* /Footer */
