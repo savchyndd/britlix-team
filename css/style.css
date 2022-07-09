@@ -80,7 +80,6 @@ body {
 .footer-link-list {
   display: flex;
   justify-content: space-between;
-  /* flex-basis: 768px; */
 }
 
 .footer-link-item {
@@ -95,13 +94,11 @@ body {
   font-family: "Poppins";
   font-size: 36px;
   line-height: 1.5;
-  display: flex;
   align-items: center;
   color: var(--black-color);
 }
 
 .footer-logo > .logo-accent {
-  display: block;
   color: var(--accent-second-color);
 }
 
@@ -110,7 +107,6 @@ body {
 
   font-size: 24px;
   line-height: 1.5;
-  display: flex;
   align-items: center;
   letter-spacing: 0.02em;
 
