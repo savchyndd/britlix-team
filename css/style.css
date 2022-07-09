@@ -1,0 +1,55 @@
+:root {
+  --black-color: #000000;
+  --white-color: #ffffff;
+  --accent-first-color: #263238;
+  --accent-second-color: #939393;
+  --decr-color: #8f95a5;
+  --price-color: #2a3246;
+  --period-color: #546269;
+
+  --landing-background-color: #e5e5e5;
+  --card-background-color: #f5f5f5;
+  --price-background-color: #eeeeee;
+  --border-color: #c4c4c4;
+}
+/* Styles reset */
+h1,
+h2,
+h3,
+h4,
+a,
+address,
+img,
+ul,
+section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+button {
+  border: 0;
+}
+address {
+  font-style: normal;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+body {
+  background-color: var(--white-color);
+  color: var(--decr-color);
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+}
