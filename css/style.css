@@ -65,16 +65,18 @@ body {
 /* Footer */
 /* Вадим */
 .footer-section {
-  padding-top: 0px;
-  padding-bottom: 77px;
+  padding-bottom: 55px;
 }
 
 .footer-container {
   display: flex;
-  align-items: baseline;
+ 
+  align-items: center;
   justify-content: space-between;
-  border-top: 1px solid var(--border-color);
   padding-top: 22px;
+  padding-bottom: 22px;
+
+  border-top: 1px solid var(--border-color);
 }
 
 .footer-link-list {
@@ -82,12 +84,8 @@ body {
   justify-content: space-between;
 }
 
-.footer-link-item {
+.footer-link-item:not(:last-child){
   margin-right: 80px;
-}
-
-.footer-link-item:last-child {
-  margin-right: 0;
 }
 
 .footer-logo {
