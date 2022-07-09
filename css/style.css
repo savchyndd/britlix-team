@@ -11,12 +11,18 @@
   --card-background-color: #f5f5f5;
   --price-background-color: #eeeeee;
   --border-color: #c4c4c4;
+
+  /* modal */
+  --modal-accent-color: #2196f3;
+  --modal-text-color: #212121;
+  --modal-desc-color: #757575;
 }
 /* Styles reset */
 h1,
 h2,
 h3,
 h4,
+p,
 a,
 address,
 img,
@@ -50,8 +56,653 @@ img {
 body {
   background-color: var(--white-color);
   color: var(--decr-color);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 1.5;
+}
+
+.section {
+  padding: 90px 0;
+}
+
+.container {
+  max-width: 1338px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Footer */
+/* Вадим */
+.footer-section {
+  padding-bottom: 55px;
+}
+
+.footer-container {
+  display: flex;
+ 
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 22px;
+  padding-bottom: 22px;
+
+  border-top: 1px solid var(--border-color);
+}
+
+.footer-link-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-link-item:not(:last-child){
+  margin-right: 80px;
+}
+
+.footer-logo {
+  font-family: "Poppins";
+  font-size: 36px;
+  line-height: 1.5;
+  align-items: center;
+  color: var(--black-color);
+}
+
+.footer-logo > .logo-accent {
+  color: var(--accent-second-color);
+}
+
+.footer-link {
+  font-family: "Poppins";
+
+  font-size: 24px;
+  line-height: 1.5;
+  align-items: center;
+  letter-spacing: 0.02em;
+
+  color: var(--decr-color);
+}
+
+/* /Вадим */
+/* /Footer */
+/* skills Karina */
+
+.section-skill {
+  padding-left: 15px;
+  padding-right: 15px;
+      
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 180px;
+}
+
+.skill-container {
+  max-width: 1200px;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skill-header {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.5;
+  color: #000000;
+  text-align: center;
+  
+  margin-bottom: 60px;
+}
+
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.skill-item {
+  display: flex;
+}
+
+.skills-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.skill-img {
+  margin-bottom: 24px;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 1;
+  flex-grow: 2;
+  flex-basis: 0%;
+}
+
+.wrapper-img1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  align-content: stretch;
+  gap: 10px;
+
+}
+
+.wrapper-img2 {
+  margin-top: 30px;
+}
+
+
+
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+
+/* Валерій */
+.header {
+ padding: 55px 0;
+}
+
+.web {
+  display: flex;
+  align-items: center;
+}
+
+.link-nav {
+font-style: normal;
+font-size: 36px;
+line-height: 54px;
+display: flex;
+align-items: center;
+color: var(--black-color);
+
+}
+
+.link {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--accent-first-color);
+}
+
+.button-header {
+  margin-left: auto;
+  border: 2px solid var(--accent-first-color);
+  border-radius: 10px;
+  padding: 20px 56px;
+}
+
+.logo {
+  margin-right: 238px;
+  font-size: 36px;
+  line-height: 54px;
+  color: var(--black-color);
+}
+
+.logo-wrap {
+  color: var(--accent-second-color);
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+/* Header - Валерій */
+
+/* Hero - Паша */
+
+/* Skills - Каріна */
+
+/* About us - Віктор Чайковський */
+
+.about-us-container {
+
+}
+
+
+.about-us-header {
+  width: 219px;
+  height: 72px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.5;
+  color: var(--black-color);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  margin-bottom: 60px;
+
+}
+
+.about-us-text {
+  width: 652px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.8;
+
+  margin-bottom: 30px;
+}
+
+.about-us-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.about-us-item {
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.7;
+}
+
+.about-us-item:not(:first-child) {
+  margin-left: 131px;
+}
+
+.about-us-img {
+  width: 540px;
+  height: 540px;
+}
+
+/* Pricin - Ілона */
+.title-container{
+  display: flex;
+  padding: 0 15px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+
+}
+
+.title-pricing{
+  display: flex;
+font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.5;
+  color:rgba(0, 0, 0, 1)
+  text-decoration: none;
+  justify-content: center;
+    align-items: center;
+    text-align: center;
+
+  
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container-section{
+  width: 426px;
+  margin-right: 30px;
+  
+}
+
+.container-section :not(:last-child){
+margin-right: 0;
+}
+
+.picture{
+  
+}
+
+.container-section-title{
+  font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.5;
+    text-decoration: none;
+    color: rgba(38, 50, 56, 1);
+    
+}
+.container-section-text{
+font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  text-decoration: none;
+  color: #8F95A5;
+}
+
+.pricing{
+font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  text-decoration: none;
+  color: #8F95A5;
+}
+
+
+/* Contact us - Женя */
+.contacts {
+  display: flex;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 2.67;
+  color: var(--black-color);
+}
+
+.form-send {
+  display: flex;
+}
+
+.form {
+  box-sizing: border-box;
+  width: 283px;
+  height: 50px;
+  left: 295px;
+  top: 2570px;
+  border: 1px solid var(--decr-color);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.button {
+  width: 145px;
+  height: 50px;
+  left: 584px;
+  top: 2569px;
+  background-color: var(--accent-first-color);
+  border-radius: 5px; 
+  color: var(--white-color);
+}
+
+.button:hover,
+.button:focus {}
+
+/* Ваня */
+
+/* Артем */
+
+/* Аня */
+
+/* Footer - Вадим */
+
+/* */
+/* Modal window */
+.backdrop {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  min-width: 528px;
+  min-height: 581px;
+  padding: 40px;
+  background: var(--white-color);
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.modal__close-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background: inherit;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal__close-btn:hover,
+.modal__close-btn:focus {
+  fill: var(--modal-accent-color);
+}
+
+.modal__title {
+  margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  color: var(--modal-text-color);
+}
+
+.form-order__field {
+  margin-bottom: 10px;
+}
+
+.form-order__label {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color: var(--modal-desc-color);
+}
+
+.form-order__input-thumb {
+  position: relative;
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-order__input {
+  width: 100%;
+  height: 40px;
+  padding: 12px 42px;
+  background-color: var(--white-color);
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  cursor: pointer;
+  -webkit-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.form-order__input:hover,
+.form-order__input:focus {
+  border-color: var(--modal-accent-color);
+}
+
+.form-order__icon {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.form-order__input-thumb:hover .form-order__icon,
+.form-order__input:focus + .form-order__icon {
+  fill: var(--modal-accent-color);
+}
+
+.form-order__textarea {
+  display: block;
+  resize: none;
+  width: 100%;
+  height: 120px;
+  padding: 12px 16px;
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
+  background-color: var(--white-color);
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  cursor: pointer;
+  -webkit-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.form-order__textarea:hover,
+.form-order__textarea:focus {
+  border-color: var(--modal-accent-color);
+}
+
+.form-order__privacy-field {
+  margin-bottom: 30px;
+}
+
+.form-order__privacy-label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.form-order__privacy-imput {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.form-order__privacy-checkbox {
+  display: inline-block;
+  width: 16px;
+  height: 15px;
+  margin-right: 8px;
+  background-image: url(../img/icon-uncheck.svg);
+  background-position: center;
+  background-size: contain;
+  background-origin: border-box;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  -webkit-transition: background-image 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-image 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.form-order__privacy-imput:checked + .form-order__privacy-checkbox {
+  background-image: url(../img/icon-check.svg);
+}
+
+.form-order__privacy-link {
+  text-decoration: underline;
+  color: var(--modal-accent-color);
+  cursor: pointer;
+}
+
+.form-order__send-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 10px 55px;
+  font-weight: 700;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
+  background-color: var(--modal-accent-color);
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+p {
+  margin: 0;
+}
+
+.title-two {
+  margin-bottom: 60px;
+  text-align: center;
+
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 0.66;
+  color: var(--black-color);
+}
+
+.skills-title {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 0.66em;
+  color: var(--accent-first-color)
+}
+
+
+.skills-text {
+  margin-bottom: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--decr-color);
+}
+
+.skills-btn {
+  padding: 16px 63px;
+  background-color: var(--accent-first-color);
+  color: var(--white-color);
+  border-radius: 10px;
+}
+
+.skills {
+  display: flex;
+}
+
+.skills-item:nth-child(1){
 }
 
 /* Hero Паша */
