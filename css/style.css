@@ -54,6 +54,10 @@ body {
   line-height: 1.5;
 }
 
+.section {
+  padding: 90px 0;
+}
+
 .container {
   max-width: 1338px;
   margin: 0 auto;
@@ -114,3 +118,23 @@ color: var(--black-color);
 .nav-item:not(:last-child) {
   margin-right: 50px;
 }
+
+/* Header - Валерій */
+
+/* Hero - Паша */
+
+/* Skills - Каріна */
+
+/* About us - Віктор Чайковський */
+
+/* Pricin - Ілона */
+
+/* Contact us - Женя */
+
+/* Ваня */
+
+/* Артем */
+
+/* Аня */
+
+/* Footer - Вадим */
