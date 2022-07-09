@@ -53,3 +53,11 @@ body {
   font-family: 'Poppins', sans-serif;
   line-height: 1.5;
 }
+.section {
+  padding: 90px 0;
+}
+.container {
+  max-width: 1338px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
